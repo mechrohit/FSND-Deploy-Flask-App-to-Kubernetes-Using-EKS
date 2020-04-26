@@ -6,9 +6,9 @@ spec:
   type: LoadBalancer
   ports:
     - port: 80
-      targetPort: 8080
+      targetPort: 5000
   selector:
-    app: simple-jwt-api
+    app: simple-jwt-api 
 ---
 apiVersion: apps/v1
 kind: Deployment
